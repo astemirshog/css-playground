@@ -10,6 +10,7 @@ button {
     width: 105px;
     font-weight: 400;
     margin-right: 10px;
+    transition: opacity 0.15s;
 }
 
 .uber-button:hover {
@@ -26,11 +27,12 @@ button {
     width: 155px;
     border-radius: 15px;
     margin-right: 10px;
+    transition: background-color 0.15s,
+        opacity 0.15s;
 }
 
 .amazon-button:hover {
-    background-color: black;
-    color: rgb(255, 216, 20);
+    background-color: #F7C904;
 }
 
 .amazon-button:active {
@@ -43,4 +45,14 @@ button {
     height: 30px;
     width: 80px;
     border-radius: 5px;
+    transition: box-shadow 0.5s,
+        opacity 0.15s;
+}
+
+.github-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.github-button:active {
+    opacity: 0.7;
 }
