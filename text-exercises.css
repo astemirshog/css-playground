@@ -2,6 +2,12 @@ section {
     margin: 50px 0;
 }
 
+* {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .ex-1 {
     font-family: Tahoma;
     font-weight: bold;
@@ -27,7 +33,7 @@ section {
 .ex2-p {
     font-family: Verdana;
     width: 300px;
-
+    margin-bottom: 20px;
 }
 
 .ex2-button {
@@ -52,4 +58,31 @@ section {
     color: red;
     margin-top: 14px;
     margin-bottom: 0;
+}
+
+.ex4-h1 {
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ex4-p {
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ex4-link {
+    font-family: Arial;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ex4-link-1 {
+    text-decoration: none;
+    color: blue;
+}
+
+.ex4-link-1:hover {
+    text-decoration: underline;
 }
