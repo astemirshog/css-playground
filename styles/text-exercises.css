@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
 section {
     margin: 50px 0;
 }
@@ -154,4 +156,19 @@ section {
 
 .after .red {
     color: red;
+}
+
+.ex7 {
+    font-family: montserrat;
+    text-align: center;
+}
+
+.ex7 h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.ex7 p {
+    font-size: 20px;
 }
