@@ -1,7 +1,10 @@
+button {
+    border: none;
+}
+
 .uber-button {
     background-color: black;
     color: white;
-    border: none;
     height: 30px;
     width: 105px;
     font-weight: 400;
@@ -11,9 +14,15 @@
 
 .amazon-button {
     background-color: rgb(255, 216, 20);
-    border: none;
     height: 30px;
     width: 155px;
     border-radius: 15px;
+}
 
+.github-button {
+    color: white;
+    background-color: rgb(46, 164, 79);
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
 }
