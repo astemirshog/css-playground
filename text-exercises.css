@@ -1,0 +1,40 @@
+section {
+    margin: 50px 0;
+}
+
+.ex-1 {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.ex2-h1 {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.ex2-h2 {
+    font-family: Verdana;
+    font-weight: 400;
+    color: grey;
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.ex2-p {
+    font-family: Verdana;
+    width: 300px;
+
+}
+
+.ex2-button {
+    font-family: Verdana;
+    background-color: #387524;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+}
