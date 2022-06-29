@@ -121,6 +121,11 @@ section {
     border: none;
     border-radius: 18px;
     cursor: pointer;
+    transition: box-shadow 0.5s ease;
+}
+
+.ex5 .buy:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .ex6 {
